@@ -60,7 +60,7 @@ public class PFPinCodeViewModel extends ViewModel {
     public LiveData<PFResult<Boolean>> isPinCodeEncryptionKeyExist() {
         final PFLiveData<PFResult<Boolean>> liveData = new PFLiveData<>();
         PFSecurityManager.getInstance().getPinCodeHelper().isPinCodeEncryptionKeyExist(
-                new PFPinCodeHelperCallback<Boolean>() {
+                    new PFPinCodeHelperCallback<Boolean>() {
                     @Override
                     public void onResult(PFResult<Boolean> result) {
                         liveData.setData(result);

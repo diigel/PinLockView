@@ -34,7 +34,6 @@
     <style name="PFLockScreenNextTextStyle">
         <item name="android:textColor">#9FFF</item>
         <item name="android:textSize">18dp</item>
-        <item name="android:backgroundTint">#c66</item>
     </style>
 
     <style name="PFLockScreenHintTextStyle">
